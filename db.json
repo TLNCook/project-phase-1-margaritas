@@ -3,6 +3,7 @@
         {
             "id": 1,
             "name": "Classic",
+            "image": "./assets/margs/ClassicMargarita.jpg",
             "ingredients": "Tequila, sour mix, lime, salt rim",
             "rating": 8,
             "comment": "A hard to beat anytime of the year drink."
@@ -10,27 +11,31 @@
         {
             "id": 2,
             "name": "Manberry",
-            "ingredients": "Strawberry mango combo puree, frozen margarita mix, lime,sugar rim",
+            "image": "./assets/margs/MangoStrawberryMargarita.jpg",
+            "ingredients": "Strawberry mango puree, frozen margarita mix, lime,sugar rim",
             "rating": 9,
             "comment": "A sweet twist on a classic cocktail."
         },
         {
             "id": 3,
             "name": "Coronarita",
-            "ingredients": "Frozen margarita mix, lime, salt rim, Corona",
+            "image": "./assets/margs/Coronarita.jpg",
+            "ingredients": "Tequila, sour mix, lime, orange, salt rim, Corona",
             "rating": 10,
             "comment": "Best of both worlds. A beer and a margarita."
         },
         {
             "id": 4,
-            "name": "Rosérita",
-            "ingredients": "Frozen margarita mix, lime, salt rim, Rosé",
-            "rating": 6,
-            "comment": "For those that like wine more than beer, and love a good margarita."
+            "name": "Jalepeño",
+            "image": "./assets/margs/SpicyJalapenoMargarita.jpg",
+            "ingredients": "Tequila, sour mix, jalepeño simple syrup, lime, fresh jalepeño, chili lime salt rim",
+            "rating": 7,
+            "comment": "A refreshing cocktail with a little kick to it."
         },
         {
             "id": 5,
             "name": "Coconut",
+            "image": "./assets/margs/CoconutMargarita.jpg",
             "ingredients": "Tequila, Malibu, sour mix, lime, toasted coconut sugar rim",
             "rating": 9,
             "comment": "Tastes like good summer vibes in a glass."
