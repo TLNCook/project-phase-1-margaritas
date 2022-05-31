@@ -1,0 +1,39 @@
+{
+    "margaritas": [
+        {
+            "id": 1,
+            "name": "Classic",
+            "ingredients": "Tequila, sour mix, lime, salt rim",
+            "rating": 8,
+            "comment": "A hard to beat anytime of the year drink."
+        },
+        {
+            "id": 2,
+            "name": "Manberry",
+            "ingredients": "Strawberry mango combo puree, frozen margarita mix, lime,sugar rim",
+            "rating": 9,
+            "comment": "A sweet twist on a classic cocktail."
+        },
+        {
+            "id": 3,
+            "name": "Coronarita",
+            "ingredients": "Frozen margarita mix, lime, salt rim, Corona",
+            "rating": 10,
+            "comment": "Best of both worlds. A beer and a margarita."
+        },
+        {
+            "id": 4,
+            "name": "Rosérita",
+            "ingredients": "Frozen margarita mix, lime, salt rim, Rosé",
+            "rating": 6,
+            "comment": "For those that like wine more than beer, and love a good margarita."
+        },
+        {
+            "id": 5,
+            "name": "Coconut",
+            "ingredients": "Tequila, Malibu, sour mix, lime, toasted coconut sugar rim",
+            "rating": 9,
+            "comment": "Tastes like good summer vibes in a glass."
+        }
+    ]
+}
