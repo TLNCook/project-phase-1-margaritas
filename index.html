@@ -4,17 +4,21 @@
     <head>
         <title>Margarita Reviews</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <script defer src="./index.js"></script>
     </head>
     <body> 
         <header>
             <h1>Margarita Reviews</h1>
         </header> 
+        <h3 id="hover">
+            Margarita Name
+        </h3>
         <div id="margaritas">
             
+            <h2 id="name">
         </div>  
         <div id="margarita-info">
-            <img src="assets/margs/placeholder-image.jpg" alt="Insert Picture Here" />
-            <h2 class="name">
+            <img id="placeholderImage" src="assets/margs/placeholder-image.jpg" alt="Insert Picture Here" />
                 Margarita Name
             </h2>
         </div>
@@ -32,11 +36,18 @@
         <ul id='comment-display'>
             Insert comment here
         </ul>
-        <form>
+        <form id="comment-form">
+            <input type="text" placeholder="Enter comment" id="comment" name="comment" />
+            <input type="submit" value="Add comment"/>
             
         </form> 
         
     </body>
-    <script src="./index.js"></script>
 
 </html>
+
+<!-- <audio controls autoplay>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio> -->
