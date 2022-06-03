@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>Margarita Reviews</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
@@ -11,43 +10,34 @@
             <h1>Margarita Reviews</h1>
         </header> 
         <h3 id="hover">
-            Margarita Name
+            Yummmm Click One!
         </h3>
-        <div id="margaritas">
-            
-            <h2 id="name">
+        <div id="margaritas"></div>
+        <div class="float-container">
+                <div class="marg-style" class="float-container">
+                    <h4 id="name">Margarita Name</h2>
+                    <h2>Rating:</h2>
+                    <p>
+                        <span id='rating-display'></span> / 10
+                    </p>
+                    <h2>Ingredients:</h2>
+                    
+                    <p id="ingredients"> </p>
+                    <h2>Comment:</h2>
+                    <div id='comment-display'></div>
+                </div>
+            <div id="margarita-image" class="float-child">
+                <img id="placeholderImage" src="assets/margs/placeholder-image.jpg" alt="Insert Picture Here" />
+            </div>
         </div>  
-        <div id="margarita-info">
-            <img id="placeholderImage" src="assets/margs/placeholder-image.jpg" alt="Insert Picture Here" />
-                Margarita Name
-            </h2>
-        </div>
-        <h2>
-            ingredients
-        </h2>
-        <p id="ingredients">
-            margarita ingredients
-        </p>
-        <h3>Rating:</h3>
-        <p>
-            <span id='rating-display'>Insert rating here</span> / 10
-        </p>
-        <h3>Comment:</h3>
-        <ul id='comment-display'>
-            Insert comment here
-        </ul>
         <form id="comment-form">
             <input type="text" placeholder="Enter comment" id="comment" name="comment" />
-            <input type="submit" value="Add comment"/>
-            
+            <input type="submit" />
         </form> 
         
+        <audio controls autoplay>
+            <source src="https://ia800501.us.archive.org/14/items/TheChamps-Tequila-1958/TheChamps-Tequila.mp3" type="audio/mpeg">
+        </audio>
     </body>
 
 </html>
-
-<!-- <audio controls autoplay>
-    <source src="horse.ogg" type="audio/ogg">
-    <source src="horse.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio> -->

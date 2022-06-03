@@ -2,43 +2,83 @@
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,;
     box-sizing: border-box;
-  }
+    font-weight: 5;
+}
 
 body {
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
-    background-color: #fafafa;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-  }
-  header {
+    background-color: blanchedalmond;
+}
+
+header {
     padding: 0.5rem;
     width: 100%;
     color: rgb(250, 247, 247);
     background-color: rgb(79, 2, 2);
-  }
+    font-size: 250%;
+}
   
-  #margaritas {
+#margaritas {
     display: flex;
     overflow-x: auto;
     margin: 1rem 0;
-    max-width: calc(100vw - 2rem);
-  }
-  #margaritas img {
-    flex: 0 1 auto;
+    box-shadow: 10px 10px 5px rgb(194, 189, 189);
+}
+
+#margaritas img {
     width: 100%;
     height: 150px;
     margin-right: 0.5rem;
     cursor: pointer;
-  }
-  #ingredients {
+}
 
-  }
- #comment-display {
+.marg-style {
+    float: left;
+    max-width: 325px;
+    margin-right: 50px;;
+}
 
+h2 {
+    text-shadow: 3px 2px rgb(255, 255, 255);
+    font-size: 200%;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 325%;
+    text-shadow: 3px 2px rgb(255, 255, 255);
+}
+
+#comment-form {
+    padding-top: 10px;
+}
+
+#hover {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(159, 6, 6), 0 0 5px rgb(65, 1, 1);
+    text-decoration: underline;
+    box-shadow: 10px 10px 5px rgb(194, 189, 189);
+    font-size: 200%;
  }
- #rating-display {
-
+ 
+ audio {
+    padding-top: 10px;
  }
+
+ .float-container {
+    padding: 20px;
+    margin: auto;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+}  
+
+#placeholderImage {
+    box-shadow: 10px 10px 5px rgb(194, 189, 189);
+}
