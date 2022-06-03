@@ -67,8 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
     margInfo.style.display = 'none';
     const commentForm = document.getElementById('comment-form');
     commentForm.style.display = 'none';
-    const audio = document.getElementsByTagName('video')
-    audio.play;
 })
 
 getMargaritas();
